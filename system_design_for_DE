@@ -1,1 +1,6 @@
-
+Questions to ask:
+1. What is xthe active user count?
+2. Is there any unexpected loads?
+3. Ask to yourself, whether it will be stateless or stateful?
+4. Will it be Global or Regional?
+5. Is there any Cloud Vendor?
