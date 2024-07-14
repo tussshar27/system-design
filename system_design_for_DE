@@ -10,6 +10,12 @@ We should be able to handle uncertain traffic load expected over the weekend or 
 3. Ask to yourself, whether it will be stateless or stateful?
 Stateless goes away when we refresh while Statefull does not go away.
 Eg. we don't want the content of cart to be lost away after we refresh the page then that is stateful application.
-4. Will it be Global or Regional?
 
-5. Is there any Cloud Vendor?
+4. Will it be Global or Regional?
+What will be the region for website. whether it will be a multi-region website and different users will access the website from different region such as US, India, Europe, etc.
+Also we have to be complaint of data governance and data monitoring protocol of these regions.
+
+
+5. Is this going to be on-premise or on Cloud Vendor?
+ask whether this application will be deplyed on-premise or on cloud. if on cloud then ask have we decided cloud vendor yet.
+if interviewer says any cloud then you decide on which cloud you will using for system design.
