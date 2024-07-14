@@ -1,7 +1,15 @@
-Questions to ask:
-1. What is the active user count?
+Questions to ask to get correct information to the interviewer and using that information, we have to design our system:
+1. What will be the active user count?
+Eg. there are 500000 users out of which 300000 are active users and in order to take input from all the active users our system should be SCALABLE.
+
 
 2. Is there any unexpected loads?
+Will there be any unexpected traffic spike in certain period of month or year.
+We should be able to handle uncertain traffic load expected over the weekend or sales as well.
+
 3. Ask to yourself, whether it will be stateless or stateful?
+Stateless goes away when we refresh while Statefull does not go away.
+Eg. we don't want the content of cart to be lost away after we refresh the page then that is stateful application.
 4. Will it be Global or Regional?
+
 5. Is there any Cloud Vendor?
