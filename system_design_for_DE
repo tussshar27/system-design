@@ -20,3 +20,8 @@ Also we have to be complaint of data governance and data monitoring protocol of 
 ask whether this application will be deplyed on-premise or on cloud. if on cloud then ask have we decided cloud vendor yet.
 if interviewer says any cloud then you decide on which cloud you will using for system design.
 
+6. What will be the Data Source for my pipeline?
+Eg. MySQL database to store data.
+
+7. What is the frequency of the pipeline?
+Is it a Batch 
