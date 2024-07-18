@@ -39,6 +39,10 @@ Eg. Migration: we have spark based on-premise system but we want to migrate it t
 Lets say we have three different users.
 a. Business Analyst: Will write SQL queries on our data, perform some visualization and export those dashboards.
 b. Data Scientist: Will run machine learning recommendation model for particular user.
-c. Operational user: Will be responsible for running the pipeline from end-to-end.
+c. Operational user: Will be responsible for running the pipeline from end-to-end. Eg. Orchestration tool like Apache Airflow, talend, etc.
+
+NOTE: Atleast have one cloud knowledge for system design.
+Everyone's system design can be unique as per the tool preferences.
+
 
 
