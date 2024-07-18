@@ -24,6 +24,21 @@ if interviewer says any cloud then you decide on which cloud you will using for 
 Eg. MySQL database to store data.
 
 7. What is the frequency of the pipeline?
-Ask whether it is a Batch pipeline or Real time streaming pipeline.
+Ask whether it is a Batch processing pipeline or Real time streaming pipeline.
+And ask what will be the frequency of pipeline?
+Eg Monthly
 
-8. 
+8. What will be the generla data size per run?
+Suppose we have total 15 tables and each table stores 1 GB of data every day and we have to run this on monthly basis.
+So, 15Tables * 1GB * 30Days = 450 GB per month we have to process.
+
+9. Do you have system on its place in cloud or is it on-premise? is it Migratiohn or New setup?
+Eg. Migration: we have spark based on-premise system but we want to migrate it to cloud.
+
+10. Who is the end-user?
+Lets say we have three different users.
+a. Business Analyst: Will write SQL queries on our data, perform some visualization and export those dashboards.
+b. Data Scientist: Will run machine learning recommendation model for particular user.
+c. Operational user: Will be responsible for running the pipeline from end-to-end.
+
+
