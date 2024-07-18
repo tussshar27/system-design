@@ -24,4 +24,6 @@ if interviewer says any cloud then you decide on which cloud you will using for 
 Eg. MySQL database to store data.
 
 7. What is the frequency of the pipeline?
-Is it a Batch 
+Ask whether it is a Batch pipeline or Real time streaming pipeline.
+
+8. 
